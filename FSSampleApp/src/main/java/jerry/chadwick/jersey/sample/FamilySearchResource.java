@@ -122,7 +122,6 @@ public class FamilySearchResource {
     public Response getCurrentTreePerson() {
 
         String retVal           = new String();
-//        String urlParameters    = "access_token=" + gAccessToken;
         String request          = "https://integration.familysearch.org/platform/tree/current-person";
 
         try {
@@ -155,7 +154,7 @@ public class FamilySearchResource {
                     }
                     in.close();
 
-                    retVal = "Current person is " + response.toString();
+                    retVal = response.toString();
 
                 }
                 catch (java.io.IOException ioException) {

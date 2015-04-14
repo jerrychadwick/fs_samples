@@ -105,6 +105,5 @@
     <orderEntry type="library" name="Maven: org.codehaus.enunciate:enunciate-csharp:1.28" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.enunciate:enunciate-ruby:1.28" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.enunciate:enunciate-php:1.28" level="project" />
-    <orderEntry type="library" name="Maven: com.sun.jersey:jersey-client:1.8" level="project" />
   </component>
 </module>
